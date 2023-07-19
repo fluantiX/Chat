@@ -108,7 +108,7 @@ const Chat = ({ navigation }) => {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
-                Authorization: 'Bearer  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',
+                Authorization: 'Bearer  ',
             },
             body: JSON.stringify({
                 model: 'gpt-3.5-turbo',
@@ -167,7 +167,7 @@ const Chat = ({ navigation }) => {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
-                Authorization: 'Bearer  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',
+                Authorization: 'Bearer  ',
             },
             body: JSON.stringify({
                 prompt: inputMessage,
